@@ -35,6 +35,15 @@ k = 35
 print(sol.checkSubarraySum(nums, k))
 #false
 
+nums = [1]
+k = 1
+print(sol.checkSubarraySum(nums, k))
+#false
+
+nums = [1, 0]
+k = 2
+print(sol.checkSubarraySum(nums, k))
+#false
 
 #time complexity:
 # O(len(numbers)):

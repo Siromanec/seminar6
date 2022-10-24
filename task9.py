@@ -38,7 +38,7 @@ class Solution:
 
 
 # Time: O(nk^2)
-# n = |{words} 
+# n = |{words}|
 # k = |{words[i]}|
 # Space: O(n)
 
@@ -63,3 +63,7 @@ print(sol.palindromePairs(words))
 words = ["a"]
 print(sol.palindromePairs(words))
 # []
+
+words = ["aba", ""]
+print(sol.palindromePairs(words))
+# [[0, 1], [1, 0]]
